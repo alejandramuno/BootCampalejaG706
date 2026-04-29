@@ -1,38 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+
     <title>mi primera web</title>
+
 </head>
+
 <body>
-    <h1>hola mundo</h1>
+    <h1 class="estilo_h1">hola mundo1 😁😊</h1>
+    <h1 class="estilo_h1_v2">hola mundo2 😂😂</h1>
     <h2>etiqueta h2 😁</h2>
-    <h3>etiqueta h3  😒</h3>
+    <h3>etiqueta h3 😒</h3>
     <h4>etiqueta h4 👌</h4>
     <h5>etiqueta h5 ❤️</h5>
     <h6>etiqueta h6 😍 </h6>
 
-    <!-- usuario : admin password: admin123 -->
-
-    <hr>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/1yW22Iv2zjg?si=30Lalo7vL4cQxpJH"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     <p>Esta etiquta es de tipo párrafo</p>
 
-     <!-- listas ordenadas-->
+    <!-- listas ordenadas-->
 
-     <h2>lista ordenada </h2>
-     <ol>
+    <h2>lista ordenada </h2>
+    <ol>
         <li>Arroz</li>
         <li>carne</li>
         <li>cafe</li>
-     </ol>
+    </ol>
 
-      <!-- listas desordenadas -->
-       <ul>
+    <!-- listas desordenadas -->
+    <ul>
         <li>Arroz</li>
         <li>carne</li>
         <li>cafe</li>
-       </ul>
+    </ul>
 
     <!-- enlaces a otras paginas -->
 
@@ -40,13 +49,13 @@
     <a href="https://"></a>
     <br>
 
-    <img src="img/img1.jpg" alt="perrito reportero">
+    <img class="mi_imagen" src="img/img1.jpg" alt="perrito reportero">
     <br>
-    <img src="img/img2.jpg" alt="perrito reportero"  style="max-width: 40%;">
+    <img src="img/img2.jpg" alt="perrito reportero" style="max-width: 40%;">
     <hr>
 
     <!-- crear tabla  -->
-     <table>
+    <table>
         <tr>
             <th>Nombre</th>
             <th>Edad</th>
@@ -78,24 +87,48 @@
             <td>Manizales</td>
         </tr>
 
-     </table>
-     <hr>
-      <!-- formulario  -->
+    </table>
+    <hr>
+    <!-- formulario  -->
 
-      <h3> Formulario de ingreso </h3>
-      <form action="">
-          <label for="">Nombre</label> <br>
-          <input type="text"><br>
-          <label for="">Contraseña</label> <br>
-          <input type="password"><br>
-          <label for="">Fecha de nacimiento:</label>
-          <input type="datetime-local">
-          <input type="number">
-          <button>Enviar</button>
+    <h3> Formulario de ingreso </h3>
+    <form action="">
+        <label for="">Nombre</label> <br>
+        <input type="text"><br>
+        <label for="">Contraseña</label> <br>
+        <input type="password"><br>
+        <label for="">Fecha de nacimiento:</label>
+        <input type="datetime-local">
+        <input type="number">
+        <button>Enviar</button>
 
-      </form>
+    </form>
 
+    <button class="btn btn-primary">Enviar</button>
+    <button type="button" class="btn btn-outline-primary">Primary</button>
+    <button type="button" class="btn btn-outline-secondary">Secondary</button>
+    <button type="button" class="btn btn-outline-success">Success</button>
+    <button type="button" class="btn btn-outline-danger">Danger</button>
+    <button type="button" class="btn btn-outline-warning">Warning</button>
+    <button type="button" class="btn btn-outline-info">Info</button>
+    <button type="button" class="btn btn-outline-light">Light</button>
+    <button type="button" class="btn btn-outline-dark">Dark</button>
 
+    <br><br><br>
 
+    <div class="card" style="width: 18rem;">
+        <img src="img/img4.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s
+                content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
